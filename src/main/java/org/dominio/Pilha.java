@@ -1,5 +1,9 @@
+package org.dominio;
+
+import org.dominio.interfaces.IEstruturaDeDados;
+
 // Implementação de uma Pilha (LIFO - Last In, First Out)
-class Pilha implements IEstruturaDeDados {
+public class Pilha implements IEstruturaDeDados {
     private int[] elementos;  // Array para armazenar os valores
     private int topo;         // Indica a posição do último elemento inserido
 
@@ -10,7 +14,7 @@ class Pilha implements IEstruturaDeDados {
 
     // Insere um novo valor no topo da pilha
     @Override
-    public void adicionar(int valor) {
+    public void adicionar(int valor) { // push()
         if (topo == elementos.length - 1) {
             throw new RuntimeException("A pilha está cheia!");
         }
@@ -19,11 +23,11 @@ class Pilha implements IEstruturaDeDados {
 
     // Remove o valor do topo da pilha e o retorna
     @Override
-    public int remover() { //pop()
+    public char remover() { // pop()
         if (estaVazia()) {
             throw new RuntimeException("A pilha está vazia!");
         }
-        return elementos[topo--];
+        return (char)elementos[topo--];
     }
 
     // Retorna o tamanho atual da pilha

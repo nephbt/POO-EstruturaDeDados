@@ -1,12 +1,16 @@
-public class Fila implements IEstruturaDeDados{
+package org.dominio;
+
+import org.dominio.interfaces.IEstruturaDeDados;
+
+public class Fila implements IEstruturaDeDados {
     @Override
     public void adicionar(int valor) {
 
     }
 
     @Override
-    public int remover() {
-        return 0;
+    public char remover() {
+        return '0';
     }
 
     @Override
