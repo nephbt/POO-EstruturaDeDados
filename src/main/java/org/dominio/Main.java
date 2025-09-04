@@ -40,12 +40,15 @@ public class Main {
             pilha.adicionar(palavra.charAt(i));
         }
 
+        System.out.println("Tamanho da pilha preenchida: " + pilha.tamanho());
+
         // Desempilhar para formar a palavra invertida
         String invertida = "";
         while (!pilha.estaVazia()) {
             invertida += String.valueOf(pilha.remover()); //corrige a conversão para String
         }
 
+        System.out.println("Tamanho da pilha após desempilhar: " + pilha.tamanho());
         System.out.println("Palavra original: " + palavra);
         System.out.println("Palavra invertida: " + invertida);
 
