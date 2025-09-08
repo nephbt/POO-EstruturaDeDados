@@ -29,7 +29,7 @@ public class PilhaEncadeada implements IEstruturaDeDados {
     public void adicionar(int valor) { // push()
         Node novo = new Node(valor);
         novo.proximo = topo; // o próximo do novo nó é o antigo topo
-        topo = novo;         // atualiza o topo
+        topo = novo; // atualiza o topo
         tamanho++;
     }
 
