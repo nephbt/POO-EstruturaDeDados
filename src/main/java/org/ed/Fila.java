@@ -1,6 +1,6 @@
-package org.dominio;
+package org.ed;
 
-import org.dominio.interfaces.IEstruturaDeDados;
+import org.ed.interfaces.IEstruturaDeDados;
 
 // Implementação de uma Fila (FIFO - First In, First Out)
 public class Fila implements IEstruturaDeDados {

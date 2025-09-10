@@ -1,7 +1,7 @@
 package org.pdv;
 
-import org.dominio.Fila;
-import org.dominio.Pilha;
+import org.ed.Fila;
+import org.ed.Pilha;
 
 public class PDVApp {
     public static void main(String[] args) {

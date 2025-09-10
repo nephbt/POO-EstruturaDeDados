@@ -1,7 +1,6 @@
-package org.dominio;
+package org.ed;
 
 import java.util.Scanner;
-import java.util.Stack;
 
 // Classe principal para testar a Pilha
 public class Main {

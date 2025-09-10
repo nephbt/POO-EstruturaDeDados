@@ -1,4 +1,4 @@
-package org.dominio.interfaces;
+package org.ed.interfaces;
 
 public interface IEstruturaDeDados {
     // Interface que define o contrato de uma Estrutura de Dados

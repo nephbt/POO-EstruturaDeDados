@@ -1,6 +1,6 @@
-package org.dominio;
+package org.ed;
 
-import org.dominio.interfaces.IEstruturaDeDados;
+import org.ed.interfaces.IEstruturaDeDados;
 
 // Implementação de uma Pilha (LIFO - Last In, First Out)
 public class Pilha implements IEstruturaDeDados {
