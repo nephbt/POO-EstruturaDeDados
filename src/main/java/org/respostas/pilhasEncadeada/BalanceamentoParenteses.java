@@ -1,6 +1,6 @@
-package org.respostas;
+package org.respostas.pilhasEncadeada;
 
-import org.dominio.PilhaEncadeada;
+import org.ed.PilhaEncadeada;
 
 import java.util.Scanner;
 
