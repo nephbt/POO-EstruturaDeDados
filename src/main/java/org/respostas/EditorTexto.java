@@ -1,6 +1,6 @@
 package org.respostas;
 
-import org.dominio.Pilha;
+import org.ed.Pilha;
 
 import java.util.Scanner;
 
